@@ -20,10 +20,6 @@ void f1() {
     printf_ptr(absolute_s1);
 }
 
-void f2() {
-    printf_ptr(absolute_s2);
-}
-
 int main(int argc, char **argv) {
     f1();
     void (*addr)() = f1;
